@@ -7,7 +7,7 @@ This image is built upon debian:buster and installs qgis-server from http://qgis
 
 Run the container:
 ```
-docker run -d --rm --name qgs -p80:80 -v /home/theo/code/qgis/world:/project qgis
+docker run -d --rm --name qgs -p80:80 -v /path/to/your/projects:/project qgis
 ```
 
 
