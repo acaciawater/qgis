@@ -1,0 +1,3 @@
+curl "http://localhost/?service=WMS&request=getcapabilities&map=/project/world.qgs"
+
+
