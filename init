@@ -2,6 +2,7 @@ mkdir -p /qgis/qgisserverdb
 chown www-data:www-data /qgis/qgisserverdb
 
 mkdir -p $APACHE_RUN_DIR $APACHE_LOCK_DIR $APACHE_LOG_DIR
+a2enmod headers
 
 cp 000-default.conf /etc/apache2/sites-available/
 
