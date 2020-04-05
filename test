@@ -1,3 +1,3 @@
-curl "http://localhost/?service=WMS&request=getcapabilities&map=/project/world.qgs"
+curl "http://localhost:8080/?service=WMS&request=getcapabilities&map=/project/gw4e.qgz"
 
 

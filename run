@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker run -d --rm --name ltr -p80:80 -v /home/theo/code/world:/project qgis:ltr
+docker run -d --rm --name qgis3 -p8080:80 -v /home/acacia/gisdata:/project qgis:ltr
 
